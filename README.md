@@ -1,5 +1,5 @@
 # Arch Linux - Packages
-## Git
+## GIT
 - Install
   ```
   sudo pacman -S git
@@ -58,4 +58,46 @@
   - Etablish a SSH connection
     ```
     ssh -T git@github.com
+    ```
+## NEOFETCH
+- Install
+  ```
+  sudo pacman -S neofetch
+  ```
+## WGET
+- Install
+  ```
+  sudo pacman -S wget
+  ```
+## HTOP
+- Install
+  ```
+  sudo pacman -S htop
+  ```
+## SQLITEBROWSER
+- Install
+  ```
+  sudo pacman -S sqlitebrowser
+  ```
+## NMAP
+- Install
+  ```
+  sudo pacman -S nmap
+  ```
+## STEAM
+- Install
+  ```
+  sudo pacman -S steam
+  ```
+## FIREFOX
+- Install
+  ```
+  sudo pacman -S firefox
+  ```
+- Setup
+  - Tweak Firefox for privacy (optional)
+    ```
+    https://github.com/arkenfox/user.js
+    https://www.unixsheikh.com/articles/choose-your-browser-carefully.html
+    https://www.youtube.com/watch?v=GVOcElOPs8E
     ```
