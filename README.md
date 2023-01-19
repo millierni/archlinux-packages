@@ -202,3 +202,10 @@
   ```
   sudo pacman -S piper
   ```
+## LIBREWOLF
+- Install
+  ```
+  git clone https://aur.archlinux.org/librewolf.git
+  cd librewolf
+  makepkg -si
+  ```
