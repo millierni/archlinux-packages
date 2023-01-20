@@ -209,3 +209,15 @@
   cd librewolf
   makepkg -si
   ```
+  If the PGP signatures failed  
+  Replace `{public_key}` with the unknown public key
+  ```
+  PUBLIC_KEY = {public_key}
+  ```
+  ```
+  gpg --keyserver hkp://pgp.mit.edu --recv-keys $PUBLIC_KEY
+  gpg --export -a $PUBLIC_KEY > $PUBLIC_KEY.asc
+  sudo pacman-key --add ./$PUBLIC_KEY.asc
+  sudo pacman-key --lsign-key $PUBLIC_KEY
+  sudo pacman-key --refresh-keys
+  ```
