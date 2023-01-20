@@ -64,6 +64,14 @@
   ```
   sudo pacman -S neofetch
   ```
+- Setup
+  - Add `neofetch` to the bash shell (optional)
+    ```
+    cat >> ~/.bashrc << EOF
+
+    neofetch
+    EOF
+    ```
 ## WGET
 - Install
   ```
