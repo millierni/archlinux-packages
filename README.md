@@ -210,16 +210,23 @@
   makepkg -si
   ```
   If the PGP signatures failed  
-  If the public key is not known, replace `Magic Unicorn` and `magic@unicorn.pw` with the name and email associated with the signature
+    - If the public key is known
+      Replace `{public_key}` with the public key
+      ```
+      PUBLIC_KEY={public_key}
+      ```
+      ```
+      gpg --keyserver hkp://pgp.mit.edu --recv-keys $PUBLIC_KEY
+      ```
+    - If not, replace `Magic Unicorn` and `magic@unicorn.pw` with the name and email associated with the signature
+      ```
+      gpg --keyserver hkp://pgp.mit.edu --search-keys "Magic Unicorn <magic@unicorn.pw>
+      ```
+      Replace `{public_key}` with the public key
+      ```
+      PUBLIC_KEY={public_key}
+      ```
   ```
-  gpg --keyserver hkp://pgp.mit.edu --search-keys "Magic Unicorn <magic@unicorn.pw>
-  ```
-  Replace `{public_key}` with the unknown public key
-  ```
-  PUBLIC_KEY={public_key}
-  ```
-  ```
-  gpg --keyserver hkp://pgp.mit.edu --recv-keys $PUBLIC_KEY
   gpg --export -a $PUBLIC_KEY > $PUBLIC_KEY.asc
   sudo pacman-key --add ./$PUBLIC_KEY.asc
   sudo pacman-key --lsign-key $PUBLIC_KEY
