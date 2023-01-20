@@ -210,7 +210,7 @@
   makepkg -si
   ```
   If the PGP signatures failed  
-    - If the public key is known
+    - If the public key is known  
       Replace `{public_key}` with the public key
       ```
       PUBLIC_KEY={public_key}
