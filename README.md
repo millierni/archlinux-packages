@@ -218,7 +218,8 @@
       ```
       gpg --keyserver hkp://pgp.mit.edu --recv-keys $PUBLIC_KEY
       ```
-    - If not, replace `Magic Unicorn` and `magic@unicorn.pw` with the name and email associated with the signature
+    - If not  
+      Replace `Magic Unicorn` and `magic@unicorn.pw` with the name and email associated with the signature
       ```
       gpg --keyserver hkp://pgp.mit.edu --search-keys "Magic Unicorn <magic@unicorn.pw>
       ```
