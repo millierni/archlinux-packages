@@ -241,3 +241,8 @@
   sudo pacman-key --lsign-key $PUBLIC_KEY
   sudo pacman-key --refresh-keys
   ```
+## UNZIP
+- Install
+  ```
+  sudo pacman -S unzip
+  ```
