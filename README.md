@@ -131,6 +131,7 @@
   git clone https://aur.archlinux.org/yay.git
   sudo chown -R $USER:$USER yay
   cd yay
+  sleep 1
   makepkg -si
   cd ..
   sudo rm -R yay
