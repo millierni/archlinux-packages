@@ -201,9 +201,15 @@
   - [Keyboard & Mouse Passthrough](https://github.com/millierni/vm-keyboard-mouse-passthrough)
 ## UNREAL ENGINE 5
 - Install  
-  https://docs.unrealengine.com/5.0/en-US/building-unreal-engine-from-source/
+  Go to [Unreal Engine Linux](https://www.unrealengine.com/en-US/linux), login and download the zip file  
+  Replace `{Linux_Unreal_Engine_*.*.*.zip}` with your zip file name
   ```
-  git clone git@github.com:EpicGames/UnrealEngine.git
+  mkdir ~/Documents/Unreal_Engine_5
+  unzip -d ~/Documents/Unreal_Engine_5 {Linux_Unreal_Engine_*.*.*.zip}
+  ```
+- Start
+  ```
+  ./~/Documents/Unreal_Engine_5/Engine/Binaries/Linux/UnrealEditor
   ```
 ## PIPER
 - Install
