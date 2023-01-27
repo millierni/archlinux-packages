@@ -206,7 +206,7 @@
   Replace `{Linux_Unreal_Engine_*.*.*.zip}` with your zip file name
   ```
   mkdir ~/Documents/Unreal_Engine_5
-  unzip -d ~/Documents/Unreal_Engine_5 {Linux_Unreal_Engine_*.*.*.zip}
+  sudo unzip -d ~/Documents/Unreal_Engine_5 {Linux_Unreal_Engine_*.*.*.zip} #If an error occurs, rerun the command, replace None 
   ```
 - Start
   ```
