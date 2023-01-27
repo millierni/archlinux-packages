@@ -206,7 +206,10 @@
   Replace `{Linux_Unreal_Engine_*.*.*.zip}` with your zip file name
   ```
   mkdir ~/Documents/Unreal_Engine_5
-  sudo unzip -d ~/Documents/Unreal_Engine_5 {Linux_Unreal_Engine_*.*.*.zip} #If an error occurs, rerun the command, replace None 
+  sudo unzip -d ~/Documents/Unreal_Engine_5 {Linux_Unreal_Engine_*.*.*.zip} #If an error occurs, rerun the command, replace [N]None 
+  ```
+  ```
+  sudo pacman -S vulkan-radeon
   ```
 - Start
   ```
