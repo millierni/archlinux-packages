@@ -213,7 +213,8 @@
   ```
 - Start
   ```
-  ./~/Documents/Unreal_Engine_5/Engine/Binaries/Linux/UnrealEditor
+  cd ~/Documents/Unreal_Engine_5/Engine/Binaries/Linux
+  ./UnrealEditor
   ```
 ## PIPER
 - Install
