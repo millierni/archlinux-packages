@@ -231,3 +231,8 @@
   ```
   sudo pacman -S unzip
   ```
+## QBITTORRENT
+- Install
+  ```
+  sudo pacman -S qbittorrent
+  ```
