@@ -236,3 +236,8 @@
   ```
   sudo pacman -S qbittorrent
   ```
+## GPT fdisk
+- Install
+  ```
+  sudo pacman -S gptfdisk
+  ```
